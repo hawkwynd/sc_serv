@@ -1,0 +1,59 @@
+
+publicserver=always
+adminpassword=scootre1
+password=scootre
+requirestreamconfigs=1
+
+streamautodumptime_1=180
+autodumptime_1=180
+
+; stream_1 configuration
+
+streamadminpassword_1=scootre
+streamid_1=1
+streampassword_1=scootre
+;serverport_1=8000
+streampath_1=stream
+streamauthhash_1=FDC1C391-A44D-47B5-840A-00C34DA9AA38
+
+; stream_2 configuration
+
+streamid_2=2
+streampassword_2=scootre
+; streamport_2=8000
+streampath_2=test
+
+; ambient stream configuration
+streamid_3=3
+streampassword_3=scootre
+streampath_3=ambient 
+
+; general configuration
+
+logfile=logs/sc_serv.log
+w3clog=logs/sc_w3c.log
+banfile=control/sc_serv.ban
+ripfile=control/sc_serv.rip
+
+shoutcast1clientdebug=0
+shoutcast2clientdebug=0
+httpclientdebug=0
+shoutcastsourcedebug=0
+uvox2sourcedebug=0
+httpsourcedebug=0
+relayshoutcastdebug=0
+relayuvoxdebug=0
+relaydebug=0
+httpstyledebug=0
+webclientdebug=0
+admetricsdebug=0
+yp2debug=0
+streamdatadebug=0
+statsdebug=0
+microserverdebug=0
+threadrunnerdebug=0
+forceshortsends=0
+ratelimit=0
+flvclientdebug=0
+W3CEnable=Yes
+streamauthhash_2=2CFE193B-7B42-416C-A4B7-5F86BEEE0C6F
