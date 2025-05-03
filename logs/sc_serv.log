@@ -27120,3 +27120,435 @@ X-Clacks-Overhead:GNU Terry Pratchett
 2025-05-03 12:08:31	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
 2025-05-03 12:08:31	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
 2025-05-03 12:08:31	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:08:41	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:55032
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:08:41	DEBUG	[DST 35.174.26.109:55032] HTTP Request [GET]
+2025-05-03 12:08:41	DEBUG	[DST 35.174.26.109:55032] HTTP Url [admin.cgi]
+2025-05-03 12:08:41	DEBUG	[DST 35.174.26.109:55032] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:08:41	DEBUG	[DST 35.174.26.109:55032] HTTP Protocol [HTTP]
+2025-05-03 12:08:41	DEBUG	[DST 35.174.26.109:55032] HTTP Version [1.1]
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:08:41	DEBUG	[DST 35.174.26.109:55032] HTTP Header [connection:close]
+2025-05-03 12:08:41	DEBUG	[DST 35.174.26.109:55032] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:08:41	DEBUG	[DST 35.174.26.109:55032] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:08:41	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:08:41	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:08:41	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:08:41	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:08:41	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:08:41	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:08:41	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:08:51	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:45688
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:08:51	DEBUG	[DST 35.174.26.109:45688] HTTP Request [GET]
+2025-05-03 12:08:51	DEBUG	[DST 35.174.26.109:45688] HTTP Url [admin.cgi]
+2025-05-03 12:08:51	DEBUG	[DST 35.174.26.109:45688] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:08:51	DEBUG	[DST 35.174.26.109:45688] HTTP Protocol [HTTP]
+2025-05-03 12:08:51	DEBUG	[DST 35.174.26.109:45688] HTTP Version [1.1]
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:08:51	DEBUG	[DST 35.174.26.109:45688] HTTP Header [connection:close]
+2025-05-03 12:08:51	DEBUG	[DST 35.174.26.109:45688] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:08:51	DEBUG	[DST 35.174.26.109:45688] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:08:51	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:08:51	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:08:51	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:08:51	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:08:51	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:08:51	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:08:51	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:09:01	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:41392
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:09:01	DEBUG	[DST 35.174.26.109:41392] HTTP Request [GET]
+2025-05-03 12:09:01	DEBUG	[DST 35.174.26.109:41392] HTTP Url [admin.cgi]
+2025-05-03 12:09:01	DEBUG	[DST 35.174.26.109:41392] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:09:01	DEBUG	[DST 35.174.26.109:41392] HTTP Protocol [HTTP]
+2025-05-03 12:09:01	DEBUG	[DST 35.174.26.109:41392] HTTP Version [1.1]
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:09:01	DEBUG	[DST 35.174.26.109:41392] HTTP Header [connection:close]
+2025-05-03 12:09:01	DEBUG	[DST 35.174.26.109:41392] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:09:01	DEBUG	[DST 35.174.26.109:41392] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:09:01	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:09:01	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:09:01	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:09:01	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:09:01	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:09:01	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:09:01	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:09:11	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:56952
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:09:11	DEBUG	[DST 35.174.26.109:56952] HTTP Request [GET]
+2025-05-03 12:09:11	DEBUG	[DST 35.174.26.109:56952] HTTP Url [admin.cgi]
+2025-05-03 12:09:11	DEBUG	[DST 35.174.26.109:56952] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:09:11	DEBUG	[DST 35.174.26.109:56952] HTTP Protocol [HTTP]
+2025-05-03 12:09:11	DEBUG	[DST 35.174.26.109:56952] HTTP Version [1.1]
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:09:11	DEBUG	[DST 35.174.26.109:56952] HTTP Header [connection:close]
+2025-05-03 12:09:11	DEBUG	[DST 35.174.26.109:56952] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:09:11	DEBUG	[DST 35.174.26.109:56952] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:09:11	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:09:11	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:09:11	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:09:11	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:09:11	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:09:11	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:09:11	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:09:21	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:58962
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:09:21	DEBUG	[DST 35.174.26.109:58962] HTTP Request [GET]
+2025-05-03 12:09:21	DEBUG	[DST 35.174.26.109:58962] HTTP Url [admin.cgi]
+2025-05-03 12:09:21	DEBUG	[DST 35.174.26.109:58962] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:09:21	DEBUG	[DST 35.174.26.109:58962] HTTP Protocol [HTTP]
+2025-05-03 12:09:21	DEBUG	[DST 35.174.26.109:58962] HTTP Version [1.1]
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:09:21	DEBUG	[DST 35.174.26.109:58962] HTTP Header [connection:close]
+2025-05-03 12:09:21	DEBUG	[DST 35.174.26.109:58962] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:09:21	DEBUG	[DST 35.174.26.109:58962] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:09:21	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:09:21	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:09:21	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:09:21	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:09:21	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:09:21	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:09:21	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:09:31	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:46322
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:09:31	DEBUG	[DST 35.174.26.109:46322] HTTP Request [GET]
+2025-05-03 12:09:31	DEBUG	[DST 35.174.26.109:46322] HTTP Url [admin.cgi]
+2025-05-03 12:09:31	DEBUG	[DST 35.174.26.109:46322] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:09:31	DEBUG	[DST 35.174.26.109:46322] HTTP Protocol [HTTP]
+2025-05-03 12:09:31	DEBUG	[DST 35.174.26.109:46322] HTTP Version [1.1]
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:09:31	DEBUG	[DST 35.174.26.109:46322] HTTP Header [connection:close]
+2025-05-03 12:09:31	DEBUG	[DST 35.174.26.109:46322] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:09:31	DEBUG	[DST 35.174.26.109:46322] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:09:31	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:09:31	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:09:31	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:09:31	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:09:31	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:09:31	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:09:31	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:09:41	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:37560
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:09:41	DEBUG	[DST 35.174.26.109:37560] HTTP Request [GET]
+2025-05-03 12:09:41	DEBUG	[DST 35.174.26.109:37560] HTTP Url [admin.cgi]
+2025-05-03 12:09:41	DEBUG	[DST 35.174.26.109:37560] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:09:41	DEBUG	[DST 35.174.26.109:37560] HTTP Protocol [HTTP]
+2025-05-03 12:09:41	DEBUG	[DST 35.174.26.109:37560] HTTP Version [1.1]
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:09:41	DEBUG	[DST 35.174.26.109:37560] HTTP Header [connection:close]
+2025-05-03 12:09:41	DEBUG	[DST 35.174.26.109:37560] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:09:41	DEBUG	[DST 35.174.26.109:37560] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:09:41	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:09:41	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:09:41	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:09:41	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:09:41	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:09:41	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:09:41	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:09:51	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:48172
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:09:51	DEBUG	[DST 35.174.26.109:48172] HTTP Request [GET]
+2025-05-03 12:09:51	DEBUG	[DST 35.174.26.109:48172] HTTP Url [admin.cgi]
+2025-05-03 12:09:51	DEBUG	[DST 35.174.26.109:48172] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:09:51	DEBUG	[DST 35.174.26.109:48172] HTTP Protocol [HTTP]
+2025-05-03 12:09:51	DEBUG	[DST 35.174.26.109:48172] HTTP Version [1.1]
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:09:51	DEBUG	[DST 35.174.26.109:48172] HTTP Header [connection:close]
+2025-05-03 12:09:51	DEBUG	[DST 35.174.26.109:48172] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:09:51	DEBUG	[DST 35.174.26.109:48172] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:09:51	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:09:51	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:09:51	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:09:51	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:09:51	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:09:51	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:09:51	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:10:01	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:41958
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:10:01	DEBUG	[DST 35.174.26.109:41958] HTTP Request [GET]
+2025-05-03 12:10:01	DEBUG	[DST 35.174.26.109:41958] HTTP Url [admin.cgi]
+2025-05-03 12:10:01	DEBUG	[DST 35.174.26.109:41958] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:10:01	DEBUG	[DST 35.174.26.109:41958] HTTP Protocol [HTTP]
+2025-05-03 12:10:01	DEBUG	[DST 35.174.26.109:41958] HTTP Version [1.1]
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:10:01	DEBUG	[DST 35.174.26.109:41958] HTTP Header [connection:close]
+2025-05-03 12:10:01	DEBUG	[DST 35.174.26.109:41958] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:10:01	DEBUG	[DST 35.174.26.109:41958] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:10:01	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:10:01	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:10:01	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:10:01	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:10:01	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:10:01	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:10:01	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:10:11	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:45980
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:10:11	DEBUG	[DST 35.174.26.109:45980] HTTP Request [GET]
+2025-05-03 12:10:11	DEBUG	[DST 35.174.26.109:45980] HTTP Url [admin.cgi]
+2025-05-03 12:10:11	DEBUG	[DST 35.174.26.109:45980] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:10:11	DEBUG	[DST 35.174.26.109:45980] HTTP Protocol [HTTP]
+2025-05-03 12:10:11	DEBUG	[DST 35.174.26.109:45980] HTTP Version [1.1]
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:10:11	DEBUG	[DST 35.174.26.109:45980] HTTP Header [connection:close]
+2025-05-03 12:10:11	DEBUG	[DST 35.174.26.109:45980] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:10:11	DEBUG	[DST 35.174.26.109:45980] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:10:11	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:10:11	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:10:11	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:10:11	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:10:11	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:10:11	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:10:11	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:10:21	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:49254
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:10:21	DEBUG	[DST 35.174.26.109:49254] HTTP Request [GET]
+2025-05-03 12:10:21	DEBUG	[DST 35.174.26.109:49254] HTTP Url [admin.cgi]
+2025-05-03 12:10:21	DEBUG	[DST 35.174.26.109:49254] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:10:21	DEBUG	[DST 35.174.26.109:49254] HTTP Protocol [HTTP]
+2025-05-03 12:10:21	DEBUG	[DST 35.174.26.109:49254] HTTP Version [1.1]
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:10:21	DEBUG	[DST 35.174.26.109:49254] HTTP Header [connection:close]
+2025-05-03 12:10:21	DEBUG	[DST 35.174.26.109:49254] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:10:21	DEBUG	[DST 35.174.26.109:49254] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:10:21	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:10:21	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:10:21	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:10:21	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:10:21	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:10:21	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:10:21	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:10:31	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:45214
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:10:31	DEBUG	[DST 35.174.26.109:45214] HTTP Request [GET]
+2025-05-03 12:10:31	DEBUG	[DST 35.174.26.109:45214] HTTP Url [admin.cgi]
+2025-05-03 12:10:31	DEBUG	[DST 35.174.26.109:45214] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:10:31	DEBUG	[DST 35.174.26.109:45214] HTTP Protocol [HTTP]
+2025-05-03 12:10:31	DEBUG	[DST 35.174.26.109:45214] HTTP Version [1.1]
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:10:31	DEBUG	[DST 35.174.26.109:45214] HTTP Header [connection:close]
+2025-05-03 12:10:31	DEBUG	[DST 35.174.26.109:45214] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:10:31	DEBUG	[DST 35.174.26.109:45214] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:10:31	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:10:31	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:10:31	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:10:31	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:10:31	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:10:31	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:10:31	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:10:41	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:39942
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:10:41	DEBUG	[DST 35.174.26.109:39942] HTTP Request [GET]
+2025-05-03 12:10:41	DEBUG	[DST 35.174.26.109:39942] HTTP Url [admin.cgi]
+2025-05-03 12:10:41	DEBUG	[DST 35.174.26.109:39942] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:10:41	DEBUG	[DST 35.174.26.109:39942] HTTP Protocol [HTTP]
+2025-05-03 12:10:41	DEBUG	[DST 35.174.26.109:39942] HTTP Version [1.1]
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:10:41	DEBUG	[DST 35.174.26.109:39942] HTTP Header [connection:close]
+2025-05-03 12:10:41	DEBUG	[DST 35.174.26.109:39942] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:10:41	DEBUG	[DST 35.174.26.109:39942] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:10:41	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:10:41	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:10:41	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:10:41	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:10:41	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:10:41	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:10:41	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:10:51	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:43002
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:10:51	DEBUG	[DST 35.174.26.109:43002] HTTP Request [GET]
+2025-05-03 12:10:51	DEBUG	[DST 35.174.26.109:43002] HTTP Url [admin.cgi]
+2025-05-03 12:10:51	DEBUG	[DST 35.174.26.109:43002] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:10:51	DEBUG	[DST 35.174.26.109:43002] HTTP Protocol [HTTP]
+2025-05-03 12:10:51	DEBUG	[DST 35.174.26.109:43002] HTTP Version [1.1]
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:10:51	DEBUG	[DST 35.174.26.109:43002] HTTP Header [connection:close]
+2025-05-03 12:10:51	DEBUG	[DST 35.174.26.109:43002] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:10:51	DEBUG	[DST 35.174.26.109:43002] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:10:51	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:10:51	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:10:51	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:10:51	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:10:51	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:10:51	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:10:51	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:11:01	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:60380
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:11:01	DEBUG	[DST 35.174.26.109:60380] HTTP Request [GET]
+2025-05-03 12:11:01	DEBUG	[DST 35.174.26.109:60380] HTTP Url [admin.cgi]
+2025-05-03 12:11:01	DEBUG	[DST 35.174.26.109:60380] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:11:01	DEBUG	[DST 35.174.26.109:60380] HTTP Protocol [HTTP]
+2025-05-03 12:11:01	DEBUG	[DST 35.174.26.109:60380] HTTP Version [1.1]
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:11:01	DEBUG	[DST 35.174.26.109:60380] HTTP Header [connection:close]
+2025-05-03 12:11:01	DEBUG	[DST 35.174.26.109:60380] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:11:01	DEBUG	[DST 35.174.26.109:60380] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:11:01	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:11:01	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:11:01	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:11:01	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:11:01	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:11:01	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:11:01	DEBUG	[ADMINCGI] ~protocol_admincgi
+2025-05-03 12:11:11	DEBUG	[MICROSERVER] Connection received from 35.174.26.109:53914
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Thread 1 amt=3, thread 2 amt=4
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Adding microConnection to thread 1
+2025-05-03 12:11:11	DEBUG	[DST 35.174.26.109:53914] HTTP Request [GET]
+2025-05-03 12:11:11	DEBUG	[DST 35.174.26.109:53914] HTTP Url [admin.cgi]
+2025-05-03 12:11:11	DEBUG	[DST 35.174.26.109:53914] HTTP Query [sid=1&mode=viewjson&pass=scootre1]
+2025-05-03 12:11:11	DEBUG	[DST 35.174.26.109:53914] HTTP Protocol [HTTP]
+2025-05-03 12:11:11	DEBUG	[DST 35.174.26.109:53914] HTTP Version [1.1]
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Adding protocol_HTTPStyle to thread 1
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Removing microConnection [done: 1, exception: 0]
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Removing microConnection from thread 1
+2025-05-03 12:11:11	DEBUG	[DST 35.174.26.109:53914] HTTP Header [connection:close]
+2025-05-03 12:11:11	DEBUG	[DST 35.174.26.109:53914] HTTP Header [host:hawkwynd.com:8000]
+2025-05-03 12:11:11	DEBUG	[DST 35.174.26.109:53914] Pre-check admin access - hostIP: 35.174.26.109, hostName: 35.174.26.109, inAdminIp: -1, inAdminName: -1
+2025-05-03 12:11:11	DEBUG	[ADMINCGI] protocol_admincgi
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Thread 1 amt=4, thread 2 amt=4
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Adding protocol_admincgi to thread 1
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle [done: 1, exception: 0]
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Removing protocol_HTTPStyle from thread 1
+2025-05-03 12:11:11	DEBUG	[ADMINCGI] state_ConfirmPassword
+2025-05-03 12:11:11	DEBUG	[ADMINCGI] Referrer status: 0
+2025-05-03 12:11:11	DEBUG	[ADMINCGI] Password status: 1
+2025-05-03 12:11:11	DEBUG	[ADMINCGI] Requested mode: viewjson
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Removing protocol_admincgi [done: 1, exception: 0]
+2025-05-03 12:11:11	DEBUG	[THREADRUNNER] Removing protocol_admincgi from thread 1
+2025-05-03 12:11:11	DEBUG	[ADMINCGI] ~protocol_admincgi
