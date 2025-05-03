@@ -1,0 +1,31 @@
+2023-01-20 10:45:11	INFO	*********************************************************************
+2023-01-20 10:45:11	INFO	**        SHOUTcast Distributed Network Audio Server (DNAS)        **
+2023-01-20 10:45:11	INFO	**    Copyright (C) 2014-2019 Radionomy SA, All Rights Reserved    **
+2023-01-20 10:45:11	INFO	*********************************************************************
+2023-01-20 10:45:11	INFO	[MAIN] SHOUTcast DNAS/posix(linux x64) v2.6.0.750 (Dec  7 2018)
+2023-01-20 10:45:11	INFO	[MAIN] PID: 31462
+2023-01-20 10:45:11	INFO	[MAIN] Saving log output to `/home/ec2-user/shoutcast/logs/sc_serv_test.log'
+2023-01-20 10:45:11	INFO	[MAIN] Automatic log rotation interval: 1 day
+2023-01-20 10:45:11	INFO	[MAIN] Loaded config from `/home/ec2-user/shoutcast/sc_serv.conf'
+2023-01-20 10:45:11	WARN	[CONFIG] Stream 1 should not have matching passwords for `adminpassword' and `password'.
+2023-01-20 10:45:11	INFO	[MAIN] Calculated CPU count is 1 -> 2 CPUs specified to be used
+2023-01-20 10:45:11	INFO	[MAIN] Limited to 1024 file descriptors [relates to ulimit -n]
+2023-01-20 10:45:11	DEBUG	ident is DIDC7cbfe1e5ac534c819760f0f27fe02820-8000, DID is e7ccb8b69a8c41d99e9d91422834ddf663499bdf7762f3dde7a2e7f416427e6
+2023-01-20 10:45:11	INFO	[MAIN] Starting 2 network threads
+2023-01-20 10:45:11	INFO	[RIP] Reserved 14 IP's from global rip file
+2023-01-20 10:45:11	INFO	[MICROSERVER] Listening for source and client connections on port 8000
+2023-01-20 10:45:11	INFO	[MICROSERVER] Listening for legacy source connections on port 8001
+2023-01-20 10:45:11	INFO	[MICROSERVER] Flash policy file server not enabled
+2023-01-20 10:45:15	INFO	[SRC 74.123.47.237:41946 sid=3] SHOUTcast 1 source connection starting.
+2023-01-20 10:45:15	INFO	[SRC 74.123.47.237:41948 sid=1] SHOUTcast 1 source connection starting.
+2023-01-20 10:45:33	INFO	[MAIN] Exiting threads...
+2023-01-20 10:45:33	INFO	[MAIN] Terminating sources...
+2023-01-20 10:45:33	INFO	[CONFIG] Kicking source for stream #1.
+2023-01-20 10:45:33	INFO	[CONFIG] Kicking source for stream #3.
+2023-01-20 10:45:33	INFO	[SRC 74.123.47.237:41946 sid=3] SHOUTcast 1 source disconnected.
+2023-01-20 10:45:33	INFO	[SRC 74.123.47.237:41948 sid=1] SHOUTcast 1 source disconnected.
+2023-01-20 10:45:33	INFO	[YP sid=3] Stream #3 has been updated on the SHOUTcast Directory.
+2023-01-20 10:45:33	INFO	[YP sid=1] Stream #1 has been updated on the SHOUTcast Directory.
+2023-01-20 10:45:33	INFO	[BANDWIDTH] Total: 588076, Sent: 3279, Recv: 584797
+2023-01-20 10:45:33	INFO	[MAIN] Shutdown after 22 seconds running
+

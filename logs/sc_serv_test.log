@@ -1,0 +1,55 @@
+2023-01-20 10:45:53	INFO	*********************************************************************
+2023-01-20 10:45:53	INFO	**        SHOUTcast Distributed Network Audio Server (DNAS)        **
+2023-01-20 10:45:53	INFO	**    Copyright (C) 2014-2019 Radionomy SA, All Rights Reserved    **
+2023-01-20 10:45:53	INFO	*********************************************************************
+2023-01-20 10:45:53	INFO	[MAIN] SHOUTcast DNAS/posix(linux x64) v2.6.0.750 (Dec  7 2018)
+2023-01-20 10:45:53	INFO	[MAIN] PID: 29137
+2023-01-20 10:45:53	INFO	[MAIN] Saving log output to `/home/ec2-user/shoutcast/logs/sc_serv_test.log'
+2023-01-20 10:45:53	INFO	[MAIN] Automatic log rotation interval: 1 day
+2023-01-20 10:45:53	INFO	[MAIN] Loaded config from `/home/ec2-user/shoutcast/sc_serv.conf'
+2023-01-20 10:45:53	WARN	[CONFIG] Stream 1 should not have matching passwords for `adminpassword' and `password'.
+2023-01-20 10:45:53	INFO	[MAIN] Calculated CPU count is 1 -> 2 CPUs specified to be used
+2023-01-20 10:45:53	INFO	[MAIN] Limited to 1024 file descriptors [relates to ulimit -n]
+2023-01-20 10:45:53	DEBUG	ident is DIDC7cbfe1e5ac534c819760f0f27fe02820-8000, DID is e7ccb8b69a8c41d99e9d91422834ddf663499bdf7762f3dde7a2e7f416427e6
+2023-01-20 10:45:53	INFO	[MAIN] Starting 2 network threads
+2023-01-20 10:45:53	INFO	[RIP] Reserved 14 IP's from global rip file
+2023-01-20 10:45:53	INFO	[MICROSERVER] Listening for source and client connections on port 8000
+2023-01-20 10:45:53	INFO	[MICROSERVER] Listening for legacy source connections on port 8001
+2023-01-20 10:45:53	INFO	[MICROSERVER] Flash policy file server not enabled
+2023-01-20 10:45:57	INFO	[SRC 74.123.47.237:41970 sid=3] SHOUTcast 1 source connection starting.
+2023-01-20 10:45:57	INFO	[SRC 74.123.47.237:41970 sid=3] Loaded intro file `hawkad128.mp3' (68758 bytes - processed down to 68545 bytes)
+2023-01-20 10:45:57	INFO	[SRC 74.123.47.237:41972 sid=1] SHOUTcast 1 source connection starting.
+2023-01-20 10:45:57	INFO	[SRC 74.123.47.237:41972 sid=1] Loaded intro file `hawkad128.mp3' (68758 bytes - processed down to 68545 bytes)
+2023-01-20 10:46:09	INFO	[DST 74.123.47.237:49388 sid=1] HTTP client connection accepted. User-Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 1, GRID: 1
+2023-01-20 10:46:09	INFO	[DST 74.123.47.237:49388 sid=1] HTTP client connection closed (0 seconds) [Bytes: 7940] Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 1, GRID: 1
+2023-01-20 10:46:09	INFO	[DST 74.123.47.237:49389 sid=1] SHOUTcast 1 client connection accepted. User-Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 2, GRID: 2
+2023-01-20 10:46:11	INFO	[DST 88.99.58.163:49840 sid=1] SHOUTcast 1 client connection accepted. User-Agent: `WinampMPEG/5.50', UID: 3, GRID: 3
+2023-01-20 10:46:19	INFO	[ADMINCGI sid=1] Title updated [Volbeat - Don’t Tread on Me]
+2023-01-20 10:46:19	INFO	[YP sid=1] Stream #1 has been updated on the SHOUTcast Directory.
+2023-01-20 10:46:24	INFO	[ADMINCGI sid=3] Title updated [Craig Padilla - Perspective of Disappearance ~ , Zero Ohms, Skip Murphy]
+2023-01-20 10:46:24	INFO	[YP sid=3] Stream #3 has been updated on the SHOUTcast Directory.
+2023-01-20 10:46:42	INFO	[DST 88.99.58.163:49840 sid=1] SHOUTcast 1 client connection closed (31 seconds) [Bytes: 68544] Agent: `WinampMPEG/5.50', UID: 3, GRID: 3
+2023-01-20 10:46:44	INFO	[DST 74.123.47.237:49389 sid=1] SHOUTcast 1 client connection closed (35 seconds) [Bytes: 68544] Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 2, GRID: 2
+2023-01-20 10:46:44	INFO	[DST 74.123.47.237:49395 sid=1] HTTP client connection accepted. User-Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 4, GRID: 4
+2023-01-20 10:46:44	INFO	[DST 74.123.47.237:49395 sid=1] HTTP client connection closed (0 seconds) [Bytes: 7940] Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 4, GRID: 4
+2023-01-20 10:46:44	INFO	[DST 74.123.47.237:49396 sid=1] SHOUTcast 1 client connection accepted. User-Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 5, GRID: 5
+2023-01-20 10:47:09	INFO	[DST 74.123.47.237:49396 sid=1] SHOUTcast 1 client connection closed (25 seconds) [Bytes: 68544] Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 5, GRID: 5
+2023-01-20 10:47:11	INFO	[DST 74.123.47.237:49399 sid=1] HTTP client connection accepted. User-Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 6, GRID: 6
+2023-01-20 10:47:11	INFO	[DST 74.123.47.237:49399 sid=1] HTTP client connection closed (0 seconds) [Bytes: 7940] Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 6, GRID: 6
+2023-01-20 10:47:11	INFO	[DST 74.123.47.237:49400 sid=1] SHOUTcast 1 client connection accepted. User-Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 7, GRID: 7
+2023-01-20 10:47:44	INFO	[DST 88.99.58.163:57544 sid=1] SHOUTcast 1 client connection accepted. User-Agent: `WinampMPEG/5.50', UID: 8, GRID: 8
+2023-01-20 10:47:55	INFO	[MAIN] Exiting threads...
+2023-01-20 10:47:55	INFO	[MAIN] Terminating listeners...
+2023-01-20 10:47:55	INFO	[MAIN] Terminating sources...
+2023-01-20 10:47:55	INFO	[CONFIG] Kicking source for stream #1.
+2023-01-20 10:47:55	INFO	[CONFIG] Kicking source for stream #3.
+2023-01-20 10:47:55	INFO	[SRC 74.123.47.237:41970 sid=3] SHOUTcast 1 source disconnected.
+2023-01-20 10:47:55	INFO	[DST 88.99.58.163:57544 sid=1] SHOUTcast 1 client connection closed (11 seconds) [Bytes: 68544] Agent: `WinampMPEG/5.50', UID: 8, GRID: 8
+2023-01-20 10:47:55	INFO	[SRC 74.123.47.237:41972 sid=1] SHOUTcast 1 source disconnected.
+2023-01-20 10:47:55	INFO	[DST 74.123.47.237:49400 sid=1] SHOUTcast 1 client connection closed (44 seconds) [Bytes: 68544] Agent: `VLC/3.0.18 LibVLC/3.0.18', UID: 7, GRID: 7
+2023-01-20 10:47:55	INFO	[YP sid=3] Stream #3 has been updated on the SHOUTcast Directory.
+2023-01-20 10:47:55	INFO	[YP sid=1] Stream #1 has been updated on the SHOUTcast Directory.
+2023-01-20 10:47:55	INFO	[STATS] Peak numbers: #1:2,#3:0,Total: 2
+2023-01-20 10:47:55	INFO	[BANDWIDTH] Total: 4161519, Sent: 387500, Recv: 3774019
+2023-01-20 10:47:55	INFO	[MAIN] Shutdown after 2 minutes 2 seconds running
+
